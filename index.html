@@ -32,11 +32,11 @@
             <div class ="two-column">
               <div>
                 <p>
-                    Accessibility is the practice of making your websites usable by as many people as possible. We traditionally think of this as being about people with disabilities, but the practice of making sites accessible also benefits other groups such as those using mobile devices, or those with slow network connections.
+                  As a web dev, it’s important to ensure you don’t lock anyone out of your website. You can do this is a number of ways - adhering to best practices, do cross browser testing, and considering accessibility from the start. 
                 </p>
-                <code>
-                  Test
-                </code>
+                <p>
+                  Accessible sites can be accessed by anyone, including users with physical or mental impairments, regardless of how they access the site as well (i.e. keyboard, mouse, touch screen, voice assistants like Alexa or Google Home). 
+                </p>
               </div>
               <div>
               <aside>
@@ -54,17 +54,110 @@
             <div class ="two-column">
               <div>
                 <ul>
-                  <li>Visual</li>
-                  <li>Hearing</li>
-                  <li>Mobility</li>
+                  <li><h3>Visual impairments:</h3></li>
+                    <ul>
+                      <li>blindness, low level vision, colour blindness</li>
+                      <li>support the use of screen magnifiers and screen readers</li>
+                      <li>285 million people are estimated to be visually impaired worldwide - WHO</li>
+                    </ul>
+                  <li><h3>Hearing impairments:</h3></li>
+                    <ul>
+                      <li>either low level hearing or no hearing at all</li>
+                      <li>text alternatives to audio content that can be read or captions for videos</li>
+                      <li>466 million people worldwide - WHO</li>
+                    </ul>
                 </ul>
               </div>
               <div>
               <aside>
-                
+                <div>
+                <ul>
+                  <li><h3>Mobility impairments:</h3></li>
+                    <ul>
+                      <li>difficulty making exact movements with mouse/head pointer</li>
+                      <li>needs to be keyboard accessible </li>
+                      <li>16.1% of adults affected - WHO</li>
+                    </ul>
+                  <li><h3>Cognitive impairments:</h3></li>
+                    <ul>
+                      <li>delivering content in more than one way (text-to-speech, video)</li>
+                      <li>minimizing distractions (unnecessary content/advertisments) </li>
+                      <li>dividing processes into logical steps</li>
+                    </ul>
+                  </ul>
+                </div>
               </aside>
             </div>
             </div>
+          </div>
+      </section>
+      <section id="what-kinds">
+        <div class="content">
+            <h2>
+                Form Example
+            </h2>
+            <div class="two-column">
+              <form>
+                    <fieldset>
+                      <legend>Order Confirmation:</legend>
+                      <p>
+                        <input type="radio" name="size" id="size_1" value="male">
+                        <label for="size_1">Male</label>
+                      </p>
+                      <p>
+                        <input type="radio" name="size" id="size_2" value="female">
+                        <label for="size_2">Female</label>
+                      </p>
+                      <p>
+                        <input type="radio" name="size" id="size_3" value="other">
+                        <label for="size_3">Other</label>
+                      </p>
+                    
+                      <p>
+                        <label for="name">
+                          <span>Name: </span>
+                        </label>
+                        <input type="text" id="name" name="username">
+                      </p>
+                      <p>
+                        <label for="mail">
+                          <span>E-mail: </span>
+                        </label>
+                        <input type="email" id="mail" name="usermail">
+                      </p>
+                      <p>
+                        <label for="pwd">
+                          <span>Password: </span>
+                        </label>
+                        <input type="password" id="pwd" name="password">
+                      </p>
+                      <h2>Payment information</h2>
+                      <p>
+                        <label for="card">
+                          <span>Card type:</span>
+                        </label>
+                        <select id="card" name="usercard">
+                          <option value="visa">Visa</option>
+                          <option value="mc">Mastercard</option>
+                          <option value="amex">American Express</option>
+                        </select>
+                      </p>
+                      <p>
+                        <label for="number">
+                          <span>Card number:</span>
+                        </label>
+                          <input type="number" id="number" name="cardnumber">
+                      </p>
+                      <p>
+                        <label for="date">
+                          <span>Expiration date:</span>
+                          <em>formatted as mm/yy</em>
+                        </label>
+                        <input type="date" id="date" name="expiration">
+                      </p>
+                      <p> <button type="submit">Validate the payment</button> </p>
+                    </fieldset>
+            </form>
           </div>
       </section>
     </div>
