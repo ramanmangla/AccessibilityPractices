@@ -100,6 +100,7 @@ header nav {
 #banner h1 {
   font-size: 3.2em;
   margin: 0;
+  align-self: center
 }
 
 #banner p {
