@@ -1,130 +1,146 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto+Condensed:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <title>Accesibility Practices</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="#">Kadambi+Mangla+Hu</a>
-      </nav>
-    </header>
-    <div id="container">
-      <section id="banner">
-        <h1>
-          Web Accessibility
-        </h1>
-        <p>An essential yet often forgotten website feature.</p>
-      </section>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto+Condensed:400,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Accesibility Practices</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#">Kadambi+Mangla+Hu</a>
+    </nav>
+  </header>
+
+  <section id="importance">
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Web Accessibility</h1>
+        <p class="lead">An essential yet often forgotten website feature.</p>
+      </div>
     </div>
-   
-    <div id="container">
-      <section id="importance">
-          <div class="content">
-            <h2>
-                Why Accessibility?
-            </h2>
-            <div class ="two-column">
-              <div>
-                <p>
-                  As a web dev, it’s important to ensure you don’t lock anyone out of your website. You can do this is a number of ways - adhering to best practices, do cross browser testing, and considering accessibility from the start.
-                </p>
-                <p>
-                  Accessible sites can be accessed by anyone, including users with physical or mental impairments, regardless of how they access the site as well (i.e. keyboard, mouse, touch screen, voice assistants like Alexa or Google Home).
-                </p>
-              </div>
-              <div>
-              <aside>
-                <img src="assets\img1.jpg" style="width:90%;" align="right" alt="Family standing together.">
-              </aside>
-            </div>
-            </div>
+  </section>
+
+
+  <div id="container">
+    <section id="importance">
+      <div class="content">
+        <h2>
+          Why Accessibility?
+        </h2>
+        <div class="two-column">
+          <div>
+            <p>
+              As a web dev, it’s important to ensure you don’t lock anyone out of your website. You can do this is a
+              number of ways - adhering to best practices, do cross browser testing, and considering accessibility from
+              the start.
+            </p>
+            <p>
+              Accessible sites can be accessed by anyone, including users with physical or mental impairments,
+              regardless of how they access the site as well (i.e. keyboard, mouse, touch screen, voice assistants like
+              Alexa or Google Home).
+            </p>
           </div>
-      </section>
-      <section id="what-kinds">
-        <div class="content">
-            <h2>
-                Types of Disabilities
-            </h2>
-            <div class ="two-column">
+          <div>
+            <aside>
+              <img src="assets\img1.jpg" style="width:90%;" align="right" alt="Family standing together.">
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="what-kinds">
+      <div class="content">
+        <h2>
+          Types of Disabilities
+        </h2>
+        <div class="two-column">
+          <div>
+            <ul>
+              <li>
+                <h3>Visual impairments:</h3>
+              </li>
+              <ul>
+                <li>blindness, low level vision, colour blindness</li>
+                <li>support the use of screen magnifiers and screen readers</li>
+                <li>285 million people are estimated to be visually impaired worldwide - WHO</li>
+              </ul>
+              <li>
+                <h3>Hearing impairments:</h3>
+              </li>
+              <ul>
+                <li>either low level hearing or no hearing at all</li>
+                <li>text alternatives to audio content that can be read or captions for videos</li>
+                <li>466 million people worldwide - WHO</li>
+              </ul>
+            </ul>
+          </div>
+          <div>
+            <aside>
               <div>
                 <ul>
-                  <li><h3>Visual impairments:</h3></li>
-                    <ul>
-                      <li>blindness, low level vision, colour blindness</li>
-                      <li>support the use of screen magnifiers and screen readers</li>
-                      <li>285 million people are estimated to be visually impaired worldwide - WHO</li>
-                    </ul>
-                  <li><h3>Hearing impairments:</h3></li>
-                    <ul>
-                      <li>either low level hearing or no hearing at all</li>
-                      <li>text alternatives to audio content that can be read or captions for videos</li>
-                      <li>466 million people worldwide - WHO</li>
-                    </ul>
+                  <li>
+                    <h3>Mobility impairments:</h3>
+                  </li>
+                  <ul>
+                    <li>difficulty making exact movements with mouse/head pointer</li>
+                    <li>needs to be keyboard accessible </li>
+                    <li>16.1% of adults affected - WHO</li>
+                  </ul>
+                  <li>
+                    <h3>Cognitive impairments:</h3>
+                  </li>
+                  <ul>
+                    <li>delivering content in more than one way (text-to-speech, video)</li>
+                    <li>minimizing distractions (unnecessary content/advertisments) </li>
+                    <li>dividing processes into logical steps</li>
+                  </ul>
                 </ul>
               </div>
-              <div>
-              <aside>
-                <div>
-                <ul>
-                  <li><h3>Mobility impairments:</h3></li>
-                    <ul>
-                      <li>difficulty making exact movements with mouse/head pointer</li>
-                      <li>needs to be keyboard accessible </li>
-                      <li>16.1% of adults affected - WHO</li>
-                    </ul>
-                  <li><h3>Cognitive impairments:</h3></li>
-                    <ul>
-                      <li>delivering content in more than one way (text-to-speech, video)</li>
-                      <li>minimizing distractions (unnecessary content/advertisments) </li>
-                      <li>dividing processes into logical steps</li>
-                    </ul>
-                  </ul>
-                </div>
-              </aside>
-            </div>
-            </div>
+            </aside>
           </div>
-      </section>
-      <section id="visual">
-        <div class="content">
-          <h2>
-           Visual Impairment
-           </h2>
-          <div class ="two-column">
-            <div>
-              <p>
-                 Web experiences based inherently on visual commonly creates unreadable combinations of fonts and colours.
+        </div>
+      </div>
+    </section>
+    <section id="visual">
+      <div class="content">
+        <h2>
+          Visual Impairment
+        </h2>
+        <div class="two-column">
+          <div>
+            <p>
+              Web experiences based inherently on visual commonly creates unreadable combinations of fonts and colours.
 
-              </p>
-              <p> Users with good vision can find these web pages difficult to read and or irritating to the eyes.</p>
-              <p> Users with visual impairment that suffer from colour blindness, low vision, or blindness cannot navigate these web pages at all. </p>
-              <code>
+            </p>
+            <p> Users with good vision can find these web pages difficult to read and or irritating to the eyes.</p>
+            <p> Users with visual impairment that suffer from colour blindness, low vision, or blindness cannot navigate
+              these web pages at all. </p>
+            <code>
 
               </code>
-            </div>
-            <div>
+          </div>
+          <div>
             <aside>
               <img src="assets\visual.jpg" style="width:90%;" align="right" alt="Family standing together.">
             </aside>
           </div>
-          </div>
         </div>
+      </div>
     </section>
     <section id="visual-solution">
       <div class="content">
         <h2>
-         Solution
-         </h2>
-        <div class ="two-column">
+          Solution
+        </h2>
+        <div class="two-column">
           <div>
             <ul>
               <li>Provide contrast between colors and textures</li>
@@ -139,165 +155,382 @@
             </code>
           </div>
           <div>
-          <aside>
-            <img src="assets\visual4.jpg" style="width:90%;" align="right" alt="Family standing together.">
-          </aside>
-        </div>
-        </div>
-      </div>
-  </section>
-  <section id="visual-solution-examples">
-    <div class="content">
-      <h2>
-        Carousel Visual Solution Examples
-       </h2>
-       <break></break>
-      <div class ="three-column">
-        <div>
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="assets\c1.png" alt="" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 style="font-family: Arial; font-size: 18px; color: #FFFFFF; text-align: left;">Semantic HTML gives context to screen readers, which read the contents of a web page out loud. A button is also accessible for people relying on keyboard-only navigation; it can be clickable with both mouse and keys, and it can be tabbed between (using the tab key on the keyboard).</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
-                <h5 style="font-family: Arial; font-size: 18px; color: #000000">Provide a description for non-text content</h5>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <aside>
+              <img src="assets\visual4.jpg" style="width:90%;" align="right" alt="Family standing together.">
+            </aside>
           </div>
-          <code>
-  
-          </code>
         </div>
-        <div>
-        <aside>
-          <!-- <img src="assets\visual4.jpg" style="width:90%;" align="right" alt="Family standing together."> -->
-        </aside>
       </div>
-      </div>
-    </div>
-  </section>
+    </section>
+    <section id="visual-solution-examples">
+      <div class="content">
+        <h2>
+          Carousel Visual Solution Examples
+        </h2>
+        <break></break>
+        <div class="three-column">
+          <div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="assets\c11.png" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-family: Arial; font-size: 18px; color: #FFFFFF; text-align: left;">It’s important to
+                      understand that colorblind people rely on rely on the luminance contrast. The luminance contrast
+                      is easy to control if you
+                      hold-back with color or use he Black & White adjustment layer in Adobe Photoshop.</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets\c1.png" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-family: Arial; font-size: 18px; color: #FFFFFF; text-align: left;">Semantic HTML
+                      gives context to screen readers, which read the contents of a web page out loud. A button is also
+                      accessible for people relying on keyboard-only navigation; it can be clickable with both mouse and
+                      keys, and it can be tabbed between (using the tab key on the keyboard).</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets\c2.png" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-family: Arial; font-size: 18px; color: #FFFFFF; text-align: left;">The alt attribute
+                      provides an alternate text for an image, if the user for some reason cannot view it (because of
+                      slow connection, an error in the src attribute, or if the user uses a screen reader). If a browser
+                      cannot find an image, it will display the value of the alt attribute.</h5>
+                  </div>
+                </div>
 
-  <section id="hearing">
-    <div class="content">
-      <h2>
-        Hearing impairements
-       </h2>
-      <div class ="two-column">
-        <div>
-          <p>
-             Many web pages today are accessible to people with hearing impairements because the information is presented in a visual way (with images and text).
-
-          </p>
-          <p> Auditory diabilies include deafness, hearing loss, anacusis, hard of hearing or hearing impairment</p>
-          <code>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <code>
 
           </code>
+          </div>
+          <div>
+            <aside>
+              <!-- <img src="assets\visual4.jpg" style="width:90%;" align="right" alt="Family standing together."> -->
+            </aside>
+          </div>
         </div>
-        <div>
-        <aside>
-          <img src="assets\hearing.png" style="width:90%;" align="right" alt="Family standing together.">
-        </aside>
       </div>
+    </section>
+
+    <section id="hearing">
+      <div class="content">
+        <h2>
+          Hearing impairements
+        </h2>
+        <div class="two-column">
+          <div>
+            <p>
+              Many web pages today are accessible to people with hearing impairements because the information is
+              presented in a visual way (with images and text).
+
+            </p>
+            <p> Auditory diabilies include deafness, hearing loss, anacusis, hard of hearing or hearing impairment</p>
+            <code>
+
+          </code>
+          </div>
+          <div>
+            <aside>
+              <img src="assets\hearing.png" style="width:90%;" align="right" alt="Family standing together.">
+            </aside>
+          </div>
+        </div>
       </div>
-    </div>
-</section>
-<section id="hearing-solution">
-  <div class="content">
-    <h2>
-      Solution
-     </h2>
-    <div class ="two-column">
-      <div>
-        <p>
-          Implementing options for the hearing impairment are really easy and inexpensive, common solutions are:
-        </p>
-        <ul>
-          <li>Adding captions whenever a sound appears</li>
-          <li>Sign language for live content</li>
-        </ul>
-        <code>
+    </section>
+    <section id="hearing-solution">
+      <div class="content">
+        <h2>
+          Solution
+        </h2>
+        <div class="two-column">
+          <div>
+            <p>
+              Implementing options for the hearing impairment are really easy and inexpensive, common solutions are:
+            </p>
+            <ul>
+              <li>Adding captions whenever a sound appears</li>
+              <li>Sign language for live content</li>
+            </ul>
+            <code>
 
         </code>
+          </div>
+          <div>
+            <aside>
+              <img src="assets\hearing2.jpg" style="width:90%;" align="right" alt="Family standing together.">
+            </aside>
+          </div>
+        </div>
       </div>
-      <div>
-      <aside>
-        <img src="assets\hearing2.jpg" style="width:90%;" align="right" alt="Family standing together.">
-      </aside>
-    </div>
-    </div>
-  </div>
-</section>
-<section id="mobility">
-  <div class="content">
-    <h2>
-      Mobility impairements
-     </h2>
-    <div class ="two-column">
-      <div>
-        <p>
-          Mobility impairment is a broad category of physical disabilities that may range in severity from mild loss of fine-motor control to quadraplegia.
-        </p>
-        <p> Users may have limited arm or hand movement, use just one hand, have a tremor, have difficulty with fine movements, or be unable  to hold a mouse</p>
-        <code>
+    </section>
+    <section id="hearing-solution-examples">
+      <div class="content">
+        <h2>
+          Carousel Hearing Solution Examples
+        </h2>
+        <break></break>
+        <div class="three-column">
+          <div>
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                <!-- <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li> -->
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="assets\h1.png" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-family: Arial; font-size: 18px; color: #FFFFFF; text-align: left;">Linkedin
+                      Learning's training videos for our summer internship provide captions for all of their videos.
+                    </h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets\h2.png" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-family: Arial; font-size: 18px; color: #FFFFFF; text-align: left;">For live content
+                      that is displayed on web platforms, it is important to have a sign language available for the
+                      audience.</h5>
+                  </div>
+                </div>
+                <!-- <div class="carousel-item">
+                  <img class="d-block w-100" src="a" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-family: Arial; font-size: 18px; color: #FFFFFF; text-align: left;"></h5>
+                  </div>
+                </div> -->
+
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <code>
+
+          </code>
+          </div>
+          <div>
+            <aside>
+              <!-- <img src="assets\visual4.jpg" style="width:90%;" align="right" alt="Family standing together."> -->
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="mobility">
+      <div class="content">
+        <h2>
+          Mobility impairements
+        </h2>
+        <div class="two-column">
+          <div>
+            <p>
+              Mobility impairment is a broad category of physical disabilities that may range in severity from mild loss
+              of fine-motor control to quadraplegia.
+            </p>
+            <p> Users may have limited arm or hand movement, use just one hand, have a tremor, have difficulty with fine
+              movements, or be unable to hold a mouse</p>
+            <code>
 
         </code>
+          </div>
+          <div>
+            <aside>
+              <img src="assets\mobility.jpg" style="width:90%;" align="right" alt="Family standing together.">
+            </aside>
+          </div>
+        </div>
       </div>
-      <div>
-      <aside>
-        <img src="assets\mobility.jpg" style="width:90%;" align="right" alt="Family standing together.">
-      </aside>
-    </div>
-    </div>
-  </div>
-</section>
-<section id="mobility-solution">
-<div class="content">
-  <h2>
-    Solution
-   </h2>
-  <div class ="two-column">
-    <div>
-      <p>
-        Given the range of mobility/dexterity disabilities, a wide variety of assistive technologies are available for these users including:
-      </p>
-      <ul>
-        <li>Ensuring that all functions can be accessed with the keyboard.</li>
-        <li>Using a logical tab order (left to right, top to bottom or as appropriate for locale).</li>
-        <li>Providing methods such as a skip link to navigate over menus and navigation bars.</li>
-        <li>Being careful with the use of shortcut keys as many of them conflict with assistive devices or browser functions. </li>
-        <li>Providing logical and standard keyboard commands for interacting with the product.</li>
-      </ul>
-      <code>
+    </section>
+    <section id="mobility-solution">
+      <div class="content">
+        <h2>
+          Solution
+        </h2>
+        <div class="two-column">
+          <div>
+            <p>
+              Given the range of mobility/dexterity disabilities, a wide variety of assistive technologies are available
+              for these users including:
+            </p>
+            <ul>
+              <li>Ensuring that all functions can be accessed with the keyboard.</li>
+              <li>Using a logical tab order (left to right, top to bottom or as appropriate for locale).</li>
+              <li>Providing methods such as a skip link to navigate over menus and navigation bars.</li>
+              <li>Being careful with the use of shortcut keys as many of them conflict with assistive devices or browser
+                functions. </li>
+              <li>Providing logical and standard keyboard commands for interacting with the product.</li>
+            </ul>
+            <code>
 
       </code>
-    </div>
-    <div>
-    <aside>
-      <img src="assets\mobility2.jpg" style="width:90%;" align="right" alt="Family standing together.">
-    </aside>
+          </div>
+          <div>
+            <aside>
+              <img src="assets\mobility2.jpg" style="width:90%;" align="right" alt="Family standing together.">
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="mobility-solution-examples">
+      <div class="content">
+        <h2>
+          Carousel Mobility Solution Examples
+        </h2>
+        <break></break>
+        <div class="three-column">
+          <div>
+            <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                <!-- <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li> -->
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="assets\m4.png" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-family: Arial; font-size: 18px; color: #FFFFFF; text-align: left;">Provide a link at
+                      the top of the page which jumps the user down to an anchor or target at the beginning of the main
+                      content.</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets\m5.png" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-family: Arial; font-size: 18px; color: #FFFFFF; text-align: left;">Keyboard
+                      accessibility is one of the most important aspects of web accessibility. Many users with motor
+                      disabilities rely on a keyboard. In addition to traditional keyboards, some users may use modified
+                      keyboards or other
+                      hardware that mimics the functionality of a keyboard.</h5>
+                  </div>
+                </div>
+                <!-- <div class="carousel-item">
+                  <img class="d-block w-100" src="" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-family: Arial; font-size: 18px; color: #FFFFFF; text-align: left;"></h5>
+                  </div>
+                </div> -->
+
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <code>
+
+          </code>
+          </div>
+          <div>
+            <aside>
+              <!-- <img src="assets\visual4.jpg" style="width:90%;" align="right" alt="Family standing together."> -->
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cognitive">
+      <div class="content">
+        <h2>
+          Cognitive impairments
+        </h2>
+        <div class="two-column">
+          <div>
+            <p>
+              Cognitive impairment is when a person has trouble remembering, learning new things, concentrating, or
+              making decisions that affect their everyday life. Cognitive impairment ranges from mild to severe.
+            </p>
+            <p> There are many types of cognitive and learning disabilities and an even wider variety of interests and
+              capabilities of users who have these disabilities.</p>
+            <p>This population is larger than those with all other physical and sensory disabilities combined.</p>
+            <code>
+
+        </code>
+          </div>
+          <div>
+            <aside>
+              <img src="assets\cognitive.jpg" style="width:90%;" align="right" alt="Family standing together.">
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cognitive-solution">
+      <div class="content">
+        <h2>
+          Solution
+        </h2>
+        <div class="two-column">
+          <div>
+            <p>
+              Because needs vary across these disabilities, it's difficult to make definitive recommendations that will
+              universally help all users with cognitive and learning disabilities.
+            </p>
+            <p> Accomodating accesibility needs for all other user impairements dicussed previously, many individuals
+              with cognitive disabilities use screen readers or other assistive technologies to access content through
+              various senses or to modify content to be best perceivable to them. </p>
+            <p>Users with other physical or sensory
+              disabilities also have a higher prevalence of cognitive or learning disabilities.</p>
+            <p>A few recommendations:</p>
+            <ul>
+              <li> </li>
+              <li>Be consistant.</li>
+              <li>Webpage stays responsive for test enlargements or disbling styles.</li>
+              <li>Provide content in multiple mediums. </li>
+              <li>Focus designs with minimal distractions, make use of white space.</li>
+              <li>Readability and language</li>
+              <li>Orientation and Error Prevention/Recovery</li>
+            </ul>
+            <code>
+
+      </code>
+          </div>
+          <div>
+            <aside>
+              <img src="assets\kevin.jpg" style="width:90%;" align="right" alt="Family standing together.">
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-  </div>
-</div>
-</section>
-    </div>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
